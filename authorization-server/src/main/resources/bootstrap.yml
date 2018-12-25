@@ -1,0 +1,6 @@
+security:
+  user:
+    name: wangna
+    password: wangan
+  basic:
+    enabled: false
