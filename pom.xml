@@ -24,8 +24,19 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <spring-cloud.version>Edgware.SR3</spring-cloud.version>
+        <lombok.version>1.16.20</lombok.version>
+        <hutool.version>3.3.2</hutool.version>
     </properties>
 
+
+    <dependencies>
+        <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.27</version>
+        </dependency>
+
+    </dependencies>
 
     <dependencyManagement>
         <dependencies>
